@@ -15,7 +15,7 @@ new file mode 100644
 index 0000000000..5dfc010a14
 --- /dev/null
 +++ b/arch/arm/dts/zynq-libresdr.dts
-@@ -0,0 +1,112 @@
+@@ -0,0 +1,108 @@
 +/*
 + * LIBRE board DTS
 + *
@@ -62,8 +62,6 @@ index 0000000000..5dfc010a14
 +		};
 +
 +	};
-+	
-+	
 +};
 +
 +
@@ -110,9 +108,8 @@ index 0000000000..5dfc010a14
 +
 +&sdhci0 {
 +	/*u-boot,dm-pre-reloc;*/
-+	status = "okay";	
++	status = "okay";
 +};
-+
 +&gem0 {
 +	status = "okay";
 +	phy-mode = "rgmii-id";
@@ -127,7 +124,6 @@ index 0000000000..5dfc010a14
 +&clkc {
 +	ps-clk-frequency = <50000000>;
 +};
-+
 diff --git a/configs/zynq_libresdr_defconfig b/configs/zynq_libresdr_defconfig
 new file mode 100644
 index 0000000000..80f56980e6
