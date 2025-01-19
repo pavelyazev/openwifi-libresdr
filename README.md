@@ -1,5 +1,6 @@
 # openwifi porting to LibreSDR platform
-Porting is intendent for the hardware [rev.5](https://github.com/hz12opensource/libresdr/blob/main/zynqsdr_rev5.pdf)
+Porting is intendend for the hardware [rev.5](https://github.com/hz12opensource/libresdr/blob/main/zynqsdr_rev5.pdf)
+The Hardware/FPGA porting can be found [here](https://github.com/pavelyazev/openwifi-hw) (branch libresdr)
 
 ![LibreSDR](./libresdr.jpg)
 
